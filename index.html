@@ -48,8 +48,11 @@
 		<div style="font-size: 30px" align="center">This is slogan <span id='current-question' style="color: yellow; font-size: 40px"> 1 </span> of <span id="endAction" style="color: yellow; font-size: 40px"> 6 </span> </div>
 		</div>
 		<!-- ********************************************************************* -->
-		<div class="row" style="height: 60px;"></div>
+		<div class="row" style="height: 30px;"></div>
+			
+		<p align="center">You have <span id="countdownTimer">8</span> seconds left.</p>
 		
+		<div class="row" style="height: 30px;"></div>
 
 
 
@@ -75,7 +78,7 @@
 		<div class="row" style="padding-bottom: 20px"></div>
 		<!-- ********************************************************************* -->
 		
-		<div class="nextBtn-1" align="center">CLICK ME<br> to START game</div>
+		<div class="nextBtn-1" align="center" style="width: 60%; margin-left: auto; margin-right: auto">CLICK ME<br> to START game</div>
 		
 		<!-- ********************************************************************* -->	
 
@@ -147,13 +150,22 @@ loadRecords();
 }
 
 
-// **************************************************************> 
+// Timer Countdown **********************************************> 
+    
+    	var timeLeft = 8;
+    	var downloadTimer = setInterval(function(){
+    	timeLeft--;
+    	// $("countdowntimer").text(timeleft);
+    	if(timeLeft <= 0)
+    		clearInterval(downloadTimer);
+    	    	currentQuestion++;
+        loadRecords();
+    }, 8000);
 
 // Select Choice ************************************************> 
 
 function loadRecords() {
 	  
-
 // **************************************************************> 
 // **************************************************************> 
 
