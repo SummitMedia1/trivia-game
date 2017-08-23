@@ -1,0 +1,846 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"timer",
+				"timerCountdown"
+			],
+			[
+				"col",
+				"col-12"
+			],
+			[
+				"time",
+				"timeLeft"
+			],
+			[
+				"coun",
+				"countdownTimer"
+			],
+			[
+				"cou",
+				"countdownTimer"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"n",
+				"nooooooooo"
+			],
+			[
+				"wrong",
+				"wrongNoNoNo"
+			],
+			[
+				"wr",
+				"wrongNoNoNo"
+			],
+			[
+				"hide",
+				"hideMe"
+			],
+			[
+				"messa",
+				"messagewrong"
+			],
+			[
+				"mess",
+				"messageright"
+			],
+			[
+				"right",
+				"rightAnswers"
+			],
+			[
+				"ri",
+				"rightAnswers"
+			],
+			[
+				"select",
+				"selectedAnswer"
+			],
+			[
+				"corr",
+				"correctAnswer"
+			],
+			[
+				"cho",
+				"choicesArray"
+			],
+			[
+				"te",
+				"testNumber0"
+			],
+			[
+				"test",
+				"testNumber1"
+			],
+			[
+				"slog",
+				"sloganArray"
+			],
+			[
+				"rand",
+				"randomizer"
+			],
+			[
+				"hid",
+				"hide"
+			],
+			[
+				"hi",
+				"hideMe"
+			],
+			[
+				"choi",
+				"choices1"
+			],
+			[
+				"que",
+				"questions-number"
+			],
+			[
+				"c",
+				"currentQuestion"
+			],
+			[
+				"curr",
+				"currentQuestion"
+			],
+			[
+				"cur",
+				"currentQuestion"
+			],
+			[
+				"choice",
+				"choicesArray"
+			],
+			[
+				"cu",
+				"currentQuestion"
+			],
+			[
+				"choic",
+				"choicesArray"
+			],
+			[
+				"game",
+				"gameOver"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"coi",
+				"choice1Answer"
+			],
+			[
+				"choc",
+				"choice1Answer"
+			],
+			[
+				"solgan",
+				"sloganArray"
+			],
+			[
+				"correct",
+				"correctAnswer"
+			],
+			[
+				"ran",
+				"randomNumberArray"
+			],
+			[
+				"cli",
+				"clickFunction"
+			],
+			[
+				"quest",
+				"questions"
+			],
+			[
+				"slogan",
+				"sloganArray"
+			],
+			[
+				"random",
+				"randomNumber"
+			],
+			[
+				"pos",
+				"pos:a\tposition:absolute"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"API",
+				"APIKey"
+			],
+			[
+				"Bur",
+				"Bujumbura"
+			],
+			[
+				"dis",
+				"displayQuestion"
+			],
+			[
+				"next",
+				"nextBtn"
+			],
+			[
+				"qu",
+				"question-question-1"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"d",
+				"displaySloganTrivia"
+			],
+			[
+				"sl",
+				"sloganTrivia"
+			],
+			[
+				"questi",
+				"question-question-1"
+			],
+			[
+				"quesito",
+				"question-container"
+			],
+			[
+				"question",
+				"questionAsset"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"prime",
+				"primeNumber"
+			],
+			[
+				"t",
+				"totalScore"
+			],
+			[
+				"my",
+				"myGuess"
+			],
+			[
+				"ra",
+				"randomNumber"
+			],
+			[
+				"total",
+				"totalScore"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"cy",
+				"cyanCrystal"
+			],
+			[
+				"ble",
+				"blueRedCrystal"
+			],
+			[
+				"blue",
+				"blueRedCrystal"
+			],
+			[
+				"m",
+				"myGuess"
+			],
+			[
+				"crystalC",
+				"crystalClicks1"
+			],
+			[
+				"green",
+				"greenCrystal"
+			],
+			[
+				"reset",
+				"resetGame"
+			],
+			[
+				"los",
+				"lossesScore"
+			],
+			[
+				"cont",
+				"container-main"
+			],
+			[
+				"your",
+				"yourScore"
+			],
+			[
+				"bl",
+				"blueRedCrystal"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"po",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"Cl",
+				"clear"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"start",
+				"startSlideshow"
+			],
+			[
+				"stop",
+				"stopwatch"
+			],
+			[
+				"set",
+				"setInterval"
+			],
+			[
+				"num",
+				"numberOfGuesses"
+			],
+			[
+				"blanks",
+				"blanksAndSuccesses"
+			],
+			[
+				"numb",
+				"numberOfWrongGuesses"
+			],
+			[
+				"number",
+				"numberOfBlanks"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"pane",
+				"panelWrite"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"cas",
+				"font-variant-caps"
+			],
+			[
+				"ream",
+				"remainingLetters"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"remain",
+				"remainingLetters"
+			],
+			[
+				"answer",
+				"answerArray"
+			],
+			[
+				"ans",
+				"answerArray"
+			],
+			[
+				"an",
+				"answerArray"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"att",
+				"attr"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"drink",
+				"drinkList"
+			],
+			[
+				"Math",
+				"MathRandom"
+			],
+			[
+				"btn",
+				"btnEntry"
+			],
+			[
+				"magic",
+				"magicWordEntered"
+			],
+			[
+				"magicW",
+				"magicWordEntered"
+			],
+			[
+				"i",
+				"initial"
+			],
+			[
+				"Fo",
+				"font-weight"
+			],
+			[
+				"align",
+				"align-self"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"drive",
+				"driveToWork"
+			],
+			[
+				"di",
+				"display"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/Users/mfuchsman/trivia-game/index.html",
+		"/Users/mfuchsman/Bootcamp Folder/trivia-game/assets/stylesheets/styles.css",
+		"/Users/mfuchsman/trivia-game/assets/js/trivia.js",
+		"/Users/mfuchsman/Bootcamp Folder/crystals-game/index.html",
+		"/Users/mfuchsman/Bootcamp Folder/crystals-game/assets/js/javascript.js",
+		"/Users/mfuchsman/Bootcamp Folder/NYTimes/index.html",
+		"/Users/mfuchsman/Downloads/cat-button.html",
+		"/Users/mfuchsman/Bootcamp Folder/band-api/bands-in-town-unsolved.html",
+		"/Users/mfuchsman/Downloads/07-10-2017-UDEN-Class-Repository-FSF-master-0afa91a6bcd180714323be6313792a19d983aa8d/01-Class-Content/06-ajax/01-Activities/10-WorkingMovieApp/Unsolved/working-movie-app-easier.html",
+		"/Users/mfuchsman/Bootcamp Folder/08142017/customer-object.html",
+		"/Users/mfuchsman/Downloads/movie-json-dump.html",
+		"/Users/mfuchsman/Downloads/bujumbura-harder.html",
+		"/Users/mfuchsman/trivia-game/assets/stylesheets/styles.css",
+		"/Users/mfuchsman/trivia-game/game-index.html",
+		"/Users/mfuchsman/trivia-game/game example.js",
+		"/Users/mfuchsman/Downloads/single-ajax.html",
+		"/Users/mfuchsman/Class-Activities/08142017/index.html",
+		"/Users/mfuchsman/Class-Activities/08142017/customer-object.html",
+		"/Users/mfuchsman/Downloads/customer-object-solution.html",
+		"/Users/mfuchsman/crystals-game/index.html",
+		"/Users/mfuchsman/crystals-game/assets/js/javascript.js",
+		"/Users/mfuchsman/crystals-game/assets/stylesheets/styles.css",
+		"/Users/mfuchsman/Desktop/untitled.html",
+		"/Users/mfuchsman/crystals-game/$(document).ready(function() {",
+		"/Users/mfuchsman/crystals-game/index2.html",
+		"/Users/mfuchsman/hangman-game/index.html",
+		"/Users/mfuchsman/crystals-game/stylesheets/styles.css",
+		"/Users/mfuchsman/crystals-game/crystal-ex.html",
+		"/Users/mfuchsman/Responsive-Portfolio/assets/css/style.css",
+		"/Users/mfuchsman/Responsive-Portfolio/index.html",
+		"/Users/mfuchsman/Downloads/Unsolved 6/slideshow.html",
+		"/Users/mfuchsman/Downloads/Unsolved 6/slideshow.js",
+		"/Users/mfuchsman/Downloads/Unsolved 4/stopwatch.html",
+		"/Users/mfuchsman/Downloads/Unsolved 4/style.css",
+		"/Users/mfuchsman/Desktop/functions.html",
+		"/Users/mfuchsman/Downloads/interval-unsolved.html",
+		"/Users/mfuchsman/Downloads/Unsolved 4/stopwatch.js",
+		"/Users/mfuchsman/Downloads/this.html",
+		"/Users/mfuchsman/Downloads/coin-flip.html",
+		"/Users/mfuchsman/Downloads/simple-timer.html",
+		"/Users/mfuchsman/hangman-game/hangman-index.html",
+		"/Users/mfuchsman/hangman-game/style.css",
+		"/Users/mfuchsman/hangman-game/logic.js",
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/mfuchsman/hangman-game/logic-2.js",
+		"/Users/mfuchsman/Misc-Java-HTML5-CSS/java help.js",
+		"/Users/mfuchsman/hangman-game/index2.html",
+		"/Users/mfuchsman/Downloads/Unsolved 2/fridge.html",
+		"/Users/mfuchsman/Desktop/loops-while-statement.html",
+		"/Users/mfuchsman/hangman-game/hangman.js",
+		"/Users/mfuchsman/Downloads/jquery-calculator-starter.html",
+		"/Users/mfuchsman/Downloads/trigger-lottery-unsolved.html",
+		"/Users/mfuchsman/Desktop/guessnumber.html",
+		"/Users/mfuchsman/Desktop/loops-for-statement.html",
+		"/Users/mfuchsman/basic-portfolio/assets/css/reset.css",
+		"/Users/mfuchsman/Documents/Unnamed Site 2/css/creative.css",
+		"/Users/mfuchsman/Javascript - Udemy/javascript2.html",
+		"/Users/mfuchsman/Downloads/drinklist-unsolved.html",
+		"/Users/mfuchsman/Downloads/sandwich-click-unsolved.html",
+		"/Users/mfuchsman/Downloads/trigger-random-unsolved.html",
+		"/Users/mfuchsman/Downloads/5.html",
+		"/Users/mfuchsman/Bootstrap-Portfolio-1/index.html",
+		"/Users/mfuchsman/Bootstrap-Portfolio/portfolio.html",
+		"/Users/mfuchsman/Bootstrap-Portfolio/index.html",
+		"/Users/mfuchsman/Bootstrap-Portfolio/contact.html",
+		"/Users/mfuchsman/Responsive-Portfolio/portfolio.html",
+		"/Users/mfuchsman/Responsive-Portfolio/contact.html",
+		"/Users/mfuchsman/Downloads/car-object-unsolved.html",
+		"/Users/mfuchsman/bootstrap-portfolio/contact.html",
+		"/Users/mfuchsman/Downloads/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/Users/mfuchsman/Downloads/bootstrap-3.3.7-dist/css/bootstrap.min.css",
+		"/Users/mfuchsman/bootstrap-portfolio/assets/css/style.css",
+		"/Users/mfuchsman/bootstrap-portfolio/portfolio.html",
+		"/Users/mfuchsman/bootstrap-portfolio/index.html",
+		"/Users/mfuchsman/Downloads/array-logs-unsolved.html",
+		"/Users/mfuchsman/Downloads/array-for-syntax.html",
+		"/Users/mfuchsman/Downloads/hangman.html",
+		"/Users/mfuchsman/Downloads/array-setting-unsolved.html",
+		"/Users/mfuchsman/Downloads/udemy-javascript.html",
+		"/Users/mfuchsman/Downloads/activity2.html",
+		"/Users/mfuchsman/07242017-Monday/javascript-activity.js",
+		"/Users/mfuchsman/Downloads/js-dissect.html",
+		"/Users/mfuchsman/Downloads/Variable_Activity_Instructions.txt",
+		"/Users/mfuchsman/Downloads/pizza-variables.html",
+		"/Users/mfuchsman/basic-portfolio/contact.html",
+		"/Users/mfuchsman/Class-Activities/Boostrap/fixed-bootstrap.html",
+		"/Users/mfuchsman/Class-Activities/Boostrap/navs-bootstrap.html",
+		"/Users/mfuchsman/bootstrap-portfolio/index-test.html",
+		"/Users/mfuchsman/Class-Activities/Saturday7212017/awesome-website.html",
+		"/Users/mfuchsman/basic-portfolio/assets/css/style.css",
+		"/Users/mfuchsman/bootstrap-portfolio/assets/images/LinkedIn_logo_initials.png",
+		"/Users/mfuchsman/Class-Activities/Saturday7212017/responsive-mobile.html",
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/Users/mfuchsman/Class-Activities/Saturday7212017/bootstrap.html",
+		"/Users/mfuchsman/basic-portfolio/index.html",
+		"/Users/mfuchsman/Class-Activities/test.html",
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/Browser Refresh/Default (OSX).sublime-keymap",
+		"/Users/mfuchsman/Library/Application Support/Sublime Text 3/Packages/User/View In Browser.sublime-settings-Chrome",
+		"/Users/mfuchsman/basic-portfolio/portfolio.html",
+		"/Users/mfuchsman/Class-Activities/CSS - Line Height/bootstrap-html-in-head.html",
+		"/Users/mfuchsman/Class-Activities/Boostrap/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/Users/mfuchsman/basic-portfolio/portfolio-2.html",
+		"/Users/mfuchsman/Class-Activities/CSS - Line Height/index.html",
+		"/Users/mfuchsman/Class-Activities/CSS - Line Height/style.css",
+		"/Users/mfuchsman/reset-css/reset.css",
+		"/Users/mfuchsman/HW-Wireframe/style.css",
+		"/Users/mfuchsman/HW-Wireframe/index.html",
+		"/Users/mfuchsman/Desktop/SaturdayClassWork/Positioned-Layout/position.css",
+		"/Users/mfuchsman/Desktop/SaturdayClassWork/Positioned-Layout/position.html",
+		"/Users/mfuchsman/Desktop/SaturdayClassWork/index.html",
+		"/Users/mfuchsman/Desktop/SaturdayClassWork/style.css",
+		"/Users/mfuchsman/Dropbox/SaturdayClassWork/style.css",
+		"/Users/mfuchsman/Dropbox/SaturdayClassWork/index.html",
+		"/Users/mfuchsman/Downloads/Unsolved/RelativePaths_1/html-bio.html",
+		"/Users/mfuchsman/Downloads/Unsolved/RelativePaths_WorkingExample/html-bio-with-css.html",
+		"/Users/mfuchsman/Downloads/Unsolved/RelativePaths_2/html-bio.html",
+		"/Users/mfuchsman/Downloads/Unsolved/RelativePaths_4/HTML/html-bio.html",
+		"/Users/mfuchsman/Downloads/Unsolved/RelativePaths_3/html-bio.html",
+		"/Users/mfuchsman/basic-portfolio/homework-07122017.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"resetGame",
+			"reset",
+			"counter",
+			"counter++",
+			"counter",
+			"randomNumberArray",
+			"loser",
+			".append",
+			"append",
+			"<div id=\"header\">",
+			"popup-gallery",
+			"text",
+			"md"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"randomizer",
+			"19",
+			"5px"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 29.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Google Drive/Homework Assignments/July 10/newlink.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -11,7 +11,6 @@ var rightAnswers = 0;
 var wrongAnswers = 0;
 var counter = 1;
 var selectedAnswer;
-var wrongNoNoNo = $('audio')[0];
 
 //**************** End Variables etc. ******************************************>
 
@@ -38,31 +37,59 @@ answers.push(questions[randomNumber].correctAnswer);
 // Start Game Button Action ***************************************************> 
 
 $('.hideMe').hide();
-$('.nextBtn-1').click(function(event){
+$('.hideMe2').hide();
+$('.nextBtn-1').click(function(){
+	startTimer();
 	$(this).hide();
 	$(".hideMe").show();
+
+	setTimeout(startTimer, 1000);
 loadRecords();
 
 });
 
+
+// Timer Countdown **********************************************> 	    
+
+
+// Update the count down every 1 second
+
+var time = 40;
+var setInt;
+// grab the "start" button
+// $('#counter').html(time);
+
+function startTimer() {
+	// $('#buttons').click(function(){
+ //  console.log("CLICK WORKS!");
+  setInt = setInterval(function(){
+     time --;
+       	if(time < 0) {
+       	$('.hideMe').hide();
+  		$('#gameover').show('.hideMe2');
+  		$('#messageright').html('You got ' + rightAnswers + ' answers right.');
+  		$('#messagewrong').html('You got ' + wrongAnswers + ' answers wrong.');
+  		$('#reset').letsBegin();
+  		return;	
+  	} else {}
+     console.log(time);
+    $('.countdownTimer').html('You have ' + time + ' seconds left.').push();
+    }, 1000);
+
+}
 }
 
+// // "stop" button
+// $('#buttons').click(function(){
+//   console.log("clicked Stop button");
+//   clearInterval(setInt);
+// });
 
-// Timer Countdown **********************************************> 
-    
-    	var timeLeft = 8;
-    	var downloadTimer = setInterval(function(){
-    	timeLeft--;
-    	// $("countdowntimer").text(timeleft);
-    	if(timeLeft <= 0)
-    		clearInterval(downloadTimer);
-    	    	currentQuestion++;
-        loadRecords();
-    }, 8000);
+
 
 // Select Choice ************************************************> 
 
-function loadRecords() {
+function loadRecords(){
 	  
 // **************************************************************> 
 // **************************************************************> 
@@ -71,7 +98,8 @@ function loadRecords() {
 	   if (counter > 6) {
 
 	   	$(".hideMe").hide();
-		setTimeout(resetGame, 2000);
+	   	startTimer();
+		setTimeout(resetGame, 1000);
 
 } else {
 
@@ -81,14 +109,14 @@ function loadRecords() {
 		$("#choice_2").text(choicesArray[currentQuestion][2]);
 
 }
-
+	
 $("#current-question").text(counter++);
 
 }
 // **************************************************************> 
 // **************************************************************> 
 
-$('button').click(function(event) {
+$('.nextBtn-2').click(function(event) {
 
 if (this.id == "choice_0") {
 
@@ -121,22 +149,20 @@ function checkAnswers()  {
 		$('#nooooooooo').get(0).play();
 	}
 		currentQuestion++;
-
-loadRecords();
+	
+		loadRecords();
 
 }
 
 // **************************************************************> 
 // **************************************************************>
 
-
-function resetGame() { alert("RESET GAME?");
-location.reload();
-
-letsBegin();
-
-}
-
+$('.reset').on("click", function resetGame() { 
+		
+		alert("RESET GAME?");
+		location.reload();
+		letsBegin();
+});
 letsBegin();
 
 });
@@ -294,7 +320,7 @@ choices:["Doritos","Lays Potato Chips","Goldfish"],
 correctAnswer:2},
 
 {slogan:"So easy a caveman can do it.",
-choices:["GEICO","State Farm","Farmer's Insuranct"],
+choices:["GEICO","State Farm","Farmer's Insurance"],
 correctAnswer:0},
 
 {slogan:"The Best Place for Cartoons.",

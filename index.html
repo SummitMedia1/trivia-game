@@ -20,27 +20,23 @@
 <div class="container-main" style="position: absolute;">
 <div class="row">
 
-<!--               ***************************************************************** -->
+<!-- ********************************************************************* -->
 <div class="row" style="padding-top: 50px; position: relative"></div>
-
+<!-- ********************************************************************* -->
 	
 	<!-- Spacer ******************************************************************* -->
 	<div class="col-1"></div>
 	<!-- Spacer ******************************************************************* -->
 	
-	
+
 	<!--Left Panel Start ********************************************************** -->
 
-	<div class="col-5" id="left-main-panel" align="center" style="float: left"><img src="./assets/images/trivia-headline-1.png" width="100%" height="auto" style="margin-left: 50px" />
+	<div class="col-5" id="left-main-panel" align="center" style="float: left"><img 
+	src="./assets/images/trivia-headline-1.png" width="100%" height="auto" style="margin-left: 50px" />
 
 	</div>
 
 	<!--Left Panel End *********************************************************** -->
-	
-	
-	<!--Spacer ******************************************************************* -->
-	<!-- <div class="col-1"></div> -->
-	<!--Spacer ******************************************************************* -->
 	
 	
 	<!-- Right Panel Start ******************************************************* -->
@@ -48,17 +44,17 @@
 	<div class="col-5" id="right-main-panel" style=" background-color: #b30074; border: 10px solid black; border-radius: 26px; min-height: 460px; padding: 20px; margin-top: 60px">
 		
 		<!-- ********************************************************************* -->
+		
+		<div class="col-12 countdownTimer" style="font-size: 22px; color: white; text-align: center"></div>
 		<div class="col-12 hideMe" id="questions-number">
 		<div style="font-size: 30px" align="center">This is slogan <span id='current-question' style="color: yellow; font-size: 40px"> 1 </span> of <span id="endAction" style="color: yellow; font-size: 40px"> 6 </span> </div>
 		</div>
+		
 		<!-- ********************************************************************* -->
-		<div class="row" style="height: 30px;"></div>
-			
-		<p align="center">You have <span id="countdownTimer">8</span> seconds left.</p>
 		
 		<div class="row" style="height: 30px;"></div>
-
-
+		
+		<div class="row" style="height: 30px;"></div>
 
 		<!-- This is where the questions with answer selections go *************** -->
 		<!-- ********************************************************************* -->
@@ -69,20 +65,29 @@
 
 		<div class="col-12 choices1 hideMe" style="font-size: 28px; color: yellow; padding: 0">
 						<ul id="buttons" align="center" style="margin-left: auto; margin-right: auto; padding: 0">
-							<button class="nextBtn-2" id="choice_0" style="text-decoration: none; margin-left: auto; margin-right: auto" />Choice 0</button>
-							<button class="nextBtn-2" id="choice_1" style="text-decoration: none; margin-left: auto; margin-right: auto" />Choice 1</button>
-							<button class="nextBtn-2" id="choice_2" style="text-decoration: none; margin-left: auto; margin-right: auto" />Choice 2</button>
+							<div class="nextBtn-2" type="button" id="choice_0" style="text-decoration: none; margin-left: auto; margin-right: auto" />Choice 0</div>
+							<div class="nextBtn-2" type="button" id="choice_1" style="text-decoration: none; margin-left: auto; margin-right: auto" />Choice 1</div>
+							<div class="nextBtn-2" type="button" id="choice_2" style="text-decoration: none; margin-left: auto; margin-right: auto" />Choice 2</div>
 						</ul>
 		</div>
+		
+		<!-- ********************************************************************* -->
 		<div class="row"></div>
+		<!-- ********************************************************************* -->
+
+		<div class="col-12 hideMe2" id="gameover" style="font-size: 45px; text-align: center">Time is up!<br />GAME OVER!!</div>
 		<div class="col-6" id="messageright" style="font-size: 30px; text-align: center;float: left"></div>
 		<div class="col-6" id="messagewrong" style="font-size: 30px; text-align: center;float: right"></div>
 
 		<!-- ********************************************************************* -->
 		<div class="row" style="padding-bottom: 20px"></div>
 		<!-- ********************************************************************* -->
-		
-		<div class="nextBtn-1" align="center" style="width: 60%; margin-left: auto; margin-right: auto">CLICK ME<br> to START game</div>
+		<div class="col-12" align="center">
+		<div class="nextBtn-1" align="center" style="width: 60%; margin-left: auto; margin-right: auto">
+		CLICK ME<br> to START game</div>
+		<div class="row" style="height: 20px"></div>
+		<button class="reset nextBtn-3 hideMe3" id="reset" type="reset" align="center" style="margin-left: auto; margin-right: auto">Reset Game</button>
+		</div>
 		
 		<!-- ********************************************************************* -->	
 
