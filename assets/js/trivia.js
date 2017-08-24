@@ -54,7 +54,7 @@ loadRecords();
 
 // Update the count down every 1 second
 
-var time = 40;
+var time = 41;
 var setInt;
 // grab the "start" button
 // $('#counter').html(time);
@@ -72,10 +72,9 @@ function startTimer() {
   		$('#reset').letsBegin();
   		return;	
   	} else {}
-     console.log(time);
-    $('.countdownTimer').html('You have ' + time + ' seconds left.').push();
-    }, 1000);
-
+    
+    $('.countdownTimer').html('You have ' + time + ' seconds left.').html();
+    }, 2000);
 }
 }
 

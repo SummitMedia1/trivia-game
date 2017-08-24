@@ -47,7 +47,7 @@ body {
 	font-size: 40px;
 	border: 5px solid #74b300;
 	text-align: center;
-	/*line-height: 1.30em;*/
+	line-height: 1.15em;
 	background-color: yellow;
 
 }
@@ -59,7 +59,7 @@ body {
 	font-size: 20px;
 	border: 4px solid #74b300;
 	text-align: center;
-	line-height: 1.30em;
+	line-height: 1.20em;
 	background-color: yellow;
 	color: black;
 }
