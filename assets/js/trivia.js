@@ -70,7 +70,7 @@ function startTimer() {
   		$('#messageright').html('You got ' + rightAnswers + ' answers right.');
   		$('#messagewrong').html('You got ' + wrongAnswers + ' answers wrong.');
   		$('#reset').letsBegin();
-  		return;	
+  		return;
   	} else {}
     
     $('.countdownTimer').html('You have ' + time + ' seconds left.').html();
@@ -97,8 +97,8 @@ function loadRecords(){
 	   if (counter > 6) {
 
 	   	$(".hideMe").hide();
-	   	startTimer();
-		setTimeout(resetGame, 1000);
+	   	$(".countdownTimer").hide();
+  		$('#gameover').show('.hideMe2');
 
 } else {
 
@@ -112,6 +112,7 @@ function loadRecords(){
 $("#current-question").text(counter++);
 
 }
+
 // **************************************************************> 
 // **************************************************************> 
 
