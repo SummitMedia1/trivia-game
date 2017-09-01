@@ -139,8 +139,8 @@ color: yellow;
 }
 
 #gameover {
-font-size: 33px;
-line-height: 1.0;
+font-size: 46px;
+line-height: 1.3em;
 }
 
 #buttons {
@@ -200,10 +200,10 @@ line-height: 1.25em;
 
 }
 
-/*#gameover {
+#gameover {
 font-size: 26px;
 line-height: 1.0;
-}*/
+}
 
 #messagewrong,
 #messageright {
