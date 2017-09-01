@@ -5,7 +5,7 @@
 }
 
 body {
-	font-size: 16px;
+/*	font-size: 16px;*/
 	font-family: Baloo Thambi;
 
 }
@@ -134,6 +134,10 @@ line-height: 1.26em;
 color: yellow;
 }
 
+#gameover {
+font-size: 32px;
+line-height: 1.0;
+}
 
 @media only screen and (max-width: 768px)
 
@@ -151,7 +155,7 @@ color: yellow;
 }
 
 .nextBtn-2 {
-	padding: 5%;
+	padding: 10%;
 	font-family: Baloo Thambi;
 	font-size: 12px;
 	border: 1px solid #74b300;
@@ -186,10 +190,10 @@ line-height: 1.0em;
 
 }
 
-#gameover {
+/*#gameover {
 font-size: 26px;
 line-height: 1.0;
-}
+}*/
 
 #messagewrong,
 #messageright {
