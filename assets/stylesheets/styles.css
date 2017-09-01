@@ -56,12 +56,16 @@ body {
 	padding: 20px;
 /*	width: 220px;*/
 	font-family: Baloo Thambi;
-	font-size: 20px;
+	font-size: 28px;
 	border: 4px solid #74b300;
 	text-align: center;
-	line-height: 1.20em;
+	line-height: 1.0em;
 	background-color: yellow;
 	color: black;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
 }
 
 .nextBtn-2:hover {
@@ -107,14 +111,14 @@ a:visted {
 background-color: #b30074;
 border: 10px solid black;
 border-radius: 26px;
-min-height: 460px;
+min-height: auto;
 padding: 20px;
 margin-top: 60px";
 	
 }
 
 #slogan1 {
-font-size: 36px;
+font-size: 44px;
 line-height: 1.2em;
 text-align: center;
 color: white;
@@ -135,8 +139,14 @@ color: yellow;
 }
 
 #gameover {
-font-size: 32px;
+font-size: 33px;
 line-height: 1.0;
+}
+
+#buttons {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
 }
 
 @media only screen and (max-width: 768px)
@@ -157,10 +167,10 @@ line-height: 1.0;
 .nextBtn-2 {
 	padding: 10%;
 	font-family: Baloo Thambi;
-	font-size: 12px;
+	font-size: 18px;
 	border: 1px solid #74b300;
 	text-align: center;
-	line-height: .5em;
+	line-height: .95em;
 	background-color: yellow;
 	color: black;
 }
@@ -185,8 +195,8 @@ line-height: 1.0em;
 
 
 #slogan1 {
-font-size: 24px;
-line-height: 1.0em;
+font-size: 26px;
+line-height: 1.25em;
 
 }
 
@@ -197,7 +207,7 @@ line-height: 1.0;
 
 #messagewrong,
 #messageright {
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 1.0em;
 }
 
