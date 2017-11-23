@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	<title>Trivia Game Googly Moogly</title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="./assets/js/trivia.js" type=text/javascript></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	<script src="./assets/js/trivia.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -17,90 +19,73 @@
 
 <!-- Main Body ********************************************************************** -->
 
-<div class="container-main" style="position: absolute;">
-<div class="row">
-
-<!-- ********************************************************************* -->
-<div class="row" style="padding-top: 50px; position: relative"></div>
-<!-- ********************************************************************* -->
-	
-	<!-- Spacer ******************************************************************* -->
-	<div class="col-1"></div>
-	<!-- Spacer ******************************************************************* -->
-	
+<div class="container-fluid">
+<div class="row" style="margin-top: 60px">
 
 	<!--Left Panel Start ********************************************************** -->
 
-	<div class="col-5" id="left-main-panel" align="center" style="float: left"><img 
-	src="./assets/images/trivia-headline-1.png" width="80%" height="auto" style="margin-left: 50px" />
-
+	<div class="col-sm-4 col-sm-offset-1" align="center">
+		<img src="./assets/images/trivia-headline-1.png" width="100%" style="background-color: rgba(255,255,255,.8); box-shadow: 10px 10px 65px rgba(0,0,0,.6); padding: 20px" />
 	</div>
 
 	<!--Left Panel End *********************************************************** -->
-	
-	
+
+
 	<!-- Right Panel Start ******************************************************* -->
 
-	<div class="col-5" id="right-main-panel">
-		
+	<div class="col-sm-5 col-sm-offset-1" id="right-main-panel" style="box-shadow: 10px 10px 65px rgba(0,0,0,.6)">
+
 		<!-- ********************************************************************* -->
-		
-		<div class="col-12 countdownTimer" style="font-size: 22px; color: white; text-align: center"></div>
-		<div class="col-12 hideMe" id="questions-number">
+
+		<div class="col-sm-12 countdownTimer" style="font-size: 22px; color: white; text-align: center"></div>
+		<div class="col-sm-12 hideMe" id="questions-number">
 		<div style="font-size: 20px" align="center">This is slogan <span id="current-question"> 1 </span> of <span id="endAction"> 6 </span> </div>
 		</div>
-		
+
 		<!-- ********************************************************************* -->
 
 		<!-- This is where the questions with answer selections go *************** -->
 		<!-- ********************************************************************* -->
 		<!-- ********************************************************************* -->
 		<!-- ********************************************************************* -->
-		
-		<div class="col-12 hideMe" id="slogan1" style="text-align: center">Click The Button Below to Start.</div>
 
-		<div class="col-12 choices1 hideMe" id="buttonsText">
+		<div class="col-sm-12 hideMe" id="slogan1" style="text-align: center">Click The Button Below to Start.</div>
+
+		<div class="col-sm-12 choices1 hideMe" id="buttonsText">
 						<ul id="buttons" align="center">
 							<div class="nextBtn-2" type="button" id="choice_0">Choice 0</div>
 							<div class="nextBtn-2" type="button" id="choice_1">Choice 1</div>
 							<div class="nextBtn-2" type="button" id="choice_2">Choice 2</div>
 						</ul>
 		</div>
-		
+
 		<!-- ********************************************************************* -->
 		<div class="row"></div>
 		<!-- ********************************************************************* -->
 
-		<div class="col-12 hideMe2" id="gameover" style="text-align: center">Time is up!<br />GAME OVER!!</div>
-		<div class="col-6" id="messageright" style="text-align: center; float: left"></div>
-		<div class="col-6" id="messagewrong" style="text-align: center ; float: right"></div>
+		<div class="col-sm-12 hideMe2" id="gameover" style="text-align: center">Time is up!<br />GAME OVER!!</div>
+		<div class="col-sm-6" id="messageright" style="text-align: center; float: left"></div>
+		<div class="col-sm-6" id="messagewrong" style="text-align: center ; float: right"></div>
 
 		<!-- ********************************************************************* -->
 		<div class="row" style="padding-bottom: 20px"></div>
 		<!-- ********************************************************************* -->
-		<div class="col-12" align="center">
+		<div class="col-sm-12" align="center">
 		<div class="nextBtn-1" align="center" style="width: 60%; margin-left: auto; margin-right: auto">
 		CLICK ME<br> to START game</div>
 		<div class="row" style="height: 20px"></div>
 		<button class="reset nextBtn-3 hideMe3" id="reset" type="reset" align="center" style="margin-left: auto; margin-right: auto">Reset Game</button>
 		</div>
-		
-		<!-- ********************************************************************* -->	
+
+		<!-- ********************************************************************* -->
 
 		</div>
-	
-	<!--Right Panel End ********************************************************** -->
 
-	
-	<!--Spacer ******************************************************************* -->
-	<div class="col-1"></div>
-	<!--Spacer ******************************************************************* -->	
+	<!--Right Panel End ********************************************************** -->
 
 	</div>
 
 </div>
 
-</div>
-	
 </body>
 </html>
